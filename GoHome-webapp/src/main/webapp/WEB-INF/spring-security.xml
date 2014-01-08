@@ -23,6 +23,7 @@
     <http pattern="/home" security="none"/>
     <http pattern="/about" security="none"/>
     <http pattern="/contact" security="none"/>
+    <http pattern="/find" security="none"/>
 
     <http pattern="/**" use-expressions="true">
         <intercept-url pattern="/login" access="isAnonymous()" />
